@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+  <name>TC01_POST_CreateUser</name>
+  <testCaseGuid>4053a4ea-4eb6-4734-8922-5648fc833a40</testCaseGuid>
+</TestCaseEntity>

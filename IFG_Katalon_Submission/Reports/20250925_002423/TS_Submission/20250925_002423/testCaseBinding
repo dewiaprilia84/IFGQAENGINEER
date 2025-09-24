@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/API/TC01_POST_CreateUser","testCaseId":"Test Cases/API/TC01_POST_CreateUser","iterationVariableName":""}
+{"testCaseName":"Test Cases/API/TC02_GET_UserList","testCaseId":"Test Cases/API/TC02_GET_UserList","iterationVariableName":""}
+{"testCaseName":"Test Cases/Kafka/TC_KAFKA_ExternalConsumer","testCaseId":"Test Cases/Kafka/TC_KAFKA_ExternalConsumer","iterationVariableName":""}

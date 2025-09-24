@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+  <name>TC_KAFKA_ExternalConsumer</name>
+  <testCaseGuid>23db0aa3-c607-42f7-86bf-94ae60acbf14</testCaseGuid>
+</TestCaseEntity>

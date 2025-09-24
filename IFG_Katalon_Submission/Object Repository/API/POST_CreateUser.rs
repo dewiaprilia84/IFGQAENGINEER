@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+  <name>POST_CreateUser</name>
+  <restRequestMethod>POST</restRequestMethod>
+  <restUrl>https://reqres.in/api/users</restUrl>
+  <httpHeaderProperties>
+    <name>Content-Type</name>
+    <value>application/json</value>
+  </httpHeaderProperties>
+  <httpBody>{"name":"${name}","job":"${job}"}</httpBody>
+  <serviceType>RESTful</serviceType>
+  <variables>
+    <defaultValue>'Dewi'</defaultValue>
+    <name>name</name>
+  </variables>
+  <variables>
+    <defaultValue>'Engineer'</defaultValue>
+    <name>job</name>
+  </variables>
+</WebServiceRequestEntity>

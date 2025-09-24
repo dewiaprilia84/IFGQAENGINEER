@@ -1,0 +1,22 @@
+2025-09-25 00:24:28.201 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Submission
+2025-09-25 00:24:28.354 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Dewi Aprilia
+2025-09-25 00:24:28.356 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = IFG_Katalon_Submission
+2025-09-25 00:24:28.357 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Zain HK-PC - SIT-LP27
+2025-09-25 00:24:28.358 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-09-25 00:24:28.358 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.6
+2025-09-25 00:24:28.358 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.1.0
+Caught: java.lang.NullPointerException: Cannot invoke "org.dom4j.Element.getText()" because the return value of "org.dom4j.Element.element(String)" is null
+java.lang.NullPointerException: Cannot invoke "org.dom4j.Element.getText()" because the return value of "org.dom4j.Element.element(String)" is null
+	at com.kms.katalon.core.testcase.TestCaseFactory.readTestCase(TestCaseFactory.java:85)
+	at com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(TestCaseFactory.java:73)
+	at com.kms.katalon.core.main.TestCaseExecutor.<init>(TestCaseExecutor.java:118)
+	at com.kms.katalon.core.main.TestCaseExecutor.<init>(TestCaseExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhaseBody(TestSuiteExecutor.java:172)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:70)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1758734663018.run(TempTestSuite1758734663018.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
